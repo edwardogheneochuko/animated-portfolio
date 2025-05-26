@@ -1,20 +1,6 @@
-<<<<<<< HEAD
 
 
 
-//pages
-import Main from "./components/Main"
-
-const Index = () => {
-  
-  return (
-    <div className="bg-black w-full h-full">
-      <Main />
-    </div>
-  )
-}
-
-=======
 
 
 //pages
@@ -29,5 +15,4 @@ const Index = () => {
   )
 }
 
->>>>>>> 8b94bce (initial commit)
 export default Index
