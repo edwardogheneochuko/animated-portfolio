@@ -2,11 +2,11 @@
 
 
 export const skills = [
-    { id: 1, name: "React.js"},{ id: 2, name: "HTML"},{ id: 3, name: "CSS"},
-    { id: 4, name: "Tailwind CSS"},{ id: 4, name: "Javascript"},{ id: 5, name: "Redux"},
-    { id: 6, name: "Nextjs"},{ id: 7, name: "Git"},{ id: 8, name: "Github"},
-    { id: 9, name: "Material UI"},{ id: 10, name: "Chakra UI"},{ id: 11, name: "Shadcn UI"},
-    { id: 12, name: "Typescript"},
+    { id: 1, name: "React JS"},{ id: 2, name: "HTML"},{ id: 3, name: "CSS"},
+    { id: 4, name: "TailwindCSS"},{ id: 5, name: "Javascript"},{ id: 6, name: "Typescript"},
+    { id: 7, name: "Nextjs"},{ id: 8, name: "Git"},{ id: 9, name: "Github"},
+    { id: 10, name: "Material UI"},{ id: 11, name: "Chakra UI"},{ id: 12, name: "Shadcn UI"},
+    { id: 13, name: "Express JS", }, {id: 14, name: 'MongoDB'}
 ]
 
 export const experiences = [
@@ -52,21 +52,27 @@ export const experiences = [
 import SQgym from "../imgs/SQgym.png"
 import VibeGear from "../imgs/Vibegear.png"
 import Commerce from "../imgs/commerce.png"
+import DataStrategist from "../imgs/dataStrategist.png"
 
 export const works = [
     {
-        id: 1,
-        image: SQgym,
-        implementation: "Using ReacTypescript Scalable fitness management platform, enhancing gym operations and member engagement",
+        id: 1, 
+        image: DataStrategist,
+        implementation: 'An AI-powered web application that delivers real-time marketing insights and intelligence using user-provided data. Built with React and Tailwind CSS for a responsive and clean frontend, and Express.js for backend API routes with user authentication.',
+        links: 'https://github.com/edwardogheneochuko/AI-DataStrategist.git'
+
     },
     {
         id: 2,
-        image: VibeGear,
-        implementation: "Using nextjs Created a product page to ensure optimal performance and user experience across devices"
+        image: SQgym,
+        implementation: "Using Typescript providing scalable fitness management platform, enhancing gym operations and member engagement",
+        links: 'https://github.com/edwardogheneochuko/SqGym-fitness.git'
     },
     {
         id: 3,
         image: Commerce,
-        implementation: "Using nextjs & redux to create an e-commerce platform with filter to edit choices and favorites for wishlist and cart"
+        implementation: "Using nextjs & redux to create an e-commerce platform with filter to edit choices and favorites for wishlist and cart",
+        links: 'https://github.com/edwardogheneochuko/reduxecommerce-nextjs.git'
+
     }
 ]
