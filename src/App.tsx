@@ -1,7 +1,7 @@
 
 import './App.css'
 
- import Index from './Files/Portfolio/Index'
+import Index from "./Portfolio/Index"
 
 function App() {
 
