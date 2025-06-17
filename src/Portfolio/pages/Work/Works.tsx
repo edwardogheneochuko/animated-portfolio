@@ -37,7 +37,7 @@ const Works = ({ setSelectedPage }: Props) => {
               className='absolute inset-0 flex items-center justify-center'
             >
               <GitHub
-                fontSize='larger'
+                fontSize='large'
                 className='text-white text-[4rem]  bg-opacity-60 p-3 rounded-full hover:bg-opacity-80 transition-all duration-300'
               />
             </motion.a>

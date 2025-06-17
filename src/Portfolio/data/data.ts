@@ -50,7 +50,6 @@ export const experiences = [
 ]
 
 import SQgym from "../imgs/SQgym.png"
-import VibeGear from "../imgs/Vibegear.png"
 import Commerce from "../imgs/commerce.png"
 import DataStrategist from "../imgs/dataStrategist.png"
 
