@@ -70,8 +70,8 @@ export const works = [
     {
         id: 3,
         image: Commerce,
-        implementation: "Using nextjs & redux to create an e-commerce platform with filter to edit choices and favorites for wishlist and cart",
-        links: 'https://github.com/edwardogheneochuko/reduxecommerce-nextjs.git'
+        implementation: "Using nextjs & zustand to create an e-commerce platform with filter to edit choices and favorites for wishlist and cart",
+        links: 'https://github.com/edwardogheneochuko/Ecommerce-nextjs.git'
 
     }
 ]
