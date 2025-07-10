@@ -11,7 +11,17 @@ export const skills = [
 
 export const experiences = [
     {
-        id: "tab1",
+      id: 'tab1',
+      name: 'Edencloudwave',
+      description: 'Front end developer  ',
+      time: "Jun 2025 - Present ",
+      story: [
+        'Developed an AI chatbot that provides real-time financial advice and insights, improving user interaction and support.',
+        'Developed a responsive and user-friendly web application for a financial management platform, enhancing user engagement and satisfaction.'
+      ]
+    },
+    {
+        id: "tab2",
         name: "Okgbrand ",
         description: "Front end developer  ",
         time: "Jan 2024 - Present ",
@@ -25,7 +35,7 @@ export const experiences = [
         ],
     },
     {
-        id: "tab2",
+        id: "tab3",
         name: "Dafe Tech Ltd ",
         description: "Front end developer  ",
         time: "February 2023- November- 2023 ",
@@ -37,7 +47,7 @@ export const experiences = [
         ],
     },
     {
-        id: "tab3",
+        id: "tab4",
         name: "NIIT ",
         description: "Software Engineer Intern  ",
         time: "April 2022- October 2022 ",
@@ -52,23 +62,31 @@ export const experiences = [
 import SQgym from "../imgs/SQgym.png"
 import Commerce from "../imgs/commerce.png"
 import DataStrategist from "../imgs/dataStrategist.png"
+import AI from '../imgs/AIchatbot.png'
+import { describe } from "node:test"
 
 export const works = [
     {
-        id: 1, 
+        id: 1,
+        image: AI,
+        implementations: 'A Fevai with an AI chatbot designed to help users chat about their finances in real time.The AI processes the message and generates a financial answer, tip, or suggestion.',
+        links: 'https://github.com/edwardogheneochuko/eden-tech.git'
+    },
+    {
+        id: 2, 
         image: DataStrategist,
         implementation: 'An AI-powered web application that delivers real-time marketing insights and intelligence using user-provided data. Built with React and Tailwind CSS for a responsive and clean frontend, and Express.js for backend API routes with user authentication.',
         links: 'https://github.com/edwardogheneochuko/AI-DataStrategist.git'
 
     },
     {
-        id: 2,
+        id: 3,
         image: SQgym,
         implementation: "Using Typescript providing scalable fitness management platform, enhancing gym operations and member engagement",
         links: 'https://github.com/edwardogheneochuko/SqGym-fitness.git'
     },
     {
-        id: 3,
+        id: 4,
         image: Commerce,
         implementation: "Using nextjs & zustand to create an e-commerce platform with filter to edit choices and favorites for wishlist and cart",
         links: 'https://github.com/edwardogheneochuko/Ecommerce-nextjs.git'

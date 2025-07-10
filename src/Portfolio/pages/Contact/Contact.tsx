@@ -12,20 +12,24 @@ type Props = {
 }
 
 const Contact = ({setSelectedPage}: Props) => {
+    const listStyle = 'cursor-pointer hover:text-amber-400 duration-200'
+
   return (
     <section id='contact' className='text-white md:w-5/6 py-50 mx-auto px-5 relative'>
         <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Contact)}>
             <Heading number="04" heading="Contact" />
             
-            <div className='mt-10 text-center text-2xl font-mono grid grid-cols-2 gap-5 font-semibold relative z-10'>
-                <a href="https://github.com/edwardogheneochuko">
-                    <button><GitHub /> Github</button>
+            <div className='mt-10 text-center text-2xl font-mono grid grid-cols-2 gap-5 
+            font-semibold relative z-10 '>
+                <a href="https://github.com/edwardogheneochuko" >
+                    <button className={listStyle}>
+                        <GitHub /> Github</button>
                 </a>
                 <a href='https://www.linkedin.com/in/edward-ogheneochuko/'>
-                    <button><LinkedIn /> LinkedIn</button>
+                    <button className={listStyle}><LinkedIn /> LinkedIn</button>
                 </a>
                 <a href="mailto:headiesed@gmail.com">
-                    <button><Email /> Email</button>
+                    <button className={listStyle}><Email /> Email</button>
                 </a>
             </div>
 

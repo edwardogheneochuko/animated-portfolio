@@ -23,7 +23,7 @@ const Experiences = ({setSelectedPage}:Props) => {
                 border-b md:border-b-0 md:border-r">
                     {experiences.map((item) => (
                         <button key={item.id} onClick={() => setActiveTab(item.id)}
-                           className={`px-4 py-2 text-sm md:text-lg font-medium transition-colors 
+                           className={`px-4 py-2 text-xs md:text-lg font-medium transition-colors 
                                 cursor-pointer
                                 ${activeTab === item.id
                                     ? "border-b-2 md:border-b-0 md:border-r-2 bg-gray-900 rounded-md border-amber-400 text-white"
