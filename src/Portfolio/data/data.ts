@@ -63,7 +63,6 @@ import SQgym from "../imgs/SQgym.png"
 import Commerce from "../imgs/commerce.png"
 import DataStrategist from "../imgs/dataStrategist.png"
 import AI from '../imgs/AIchatbot.png'
-import { describe } from "node:test"
 
 export const works = [
     {
